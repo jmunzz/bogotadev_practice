@@ -25,17 +25,19 @@ class Box
 
 	def store_stuffs(stuff)
 		content = stuff
-		if empty = false
-			puts "the box is full"
-		end
+		unless stuff.nil?
+		  empty = false
+	    end
 	end
 
 	def getinfo 
-		@content
+		puts "object: #{@content.class}, value: #{@content}"
+		puts "methods #{@content.method}" 
 	end
 
 	def empty_the_box
 		content = nil
+		empty = true
 		if empty = true
 			puts "there is nothing in this box"
 		end
