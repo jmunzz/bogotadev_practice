@@ -25,14 +25,13 @@ class Box
 
 	def stor_stuffs(a)
 		store.push(a)
+		if empty = false
+			puts "the box is full"
+		end
 	end
 
 	def getinfo 
 		empty !=
 	end
-
-
-
-
 
 end
