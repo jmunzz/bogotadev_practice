@@ -16,14 +16,16 @@
 
 class Box
 	@empty = true
-	@store = store
+	@store = []
 
 	def get_status
-		@status
+		@empty
 	end
 
-	def stor_stuffs
-		store
+	def stor_stuffs(a)
+		store.push(a)
+	end
+
 
 
 
