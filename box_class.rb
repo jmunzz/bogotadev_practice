@@ -26,6 +26,11 @@ class Box
 		store.push(a)
 	end
 
+	def getinfo
+		puts []
+	end
+	
+
 
 
 
