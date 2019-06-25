@@ -15,7 +15,16 @@
 # 8. add a method to empty the box and update its status, if the box is already empty, show the message: "there is nothing in the box"
 
 class Box
-	attr_accessor :status
-	@status = empty
-	
+	@empty = true
+	@store = store
+
+	def get_status
+		@status
+	end
+
+	def stor_stuffs
+		store
+
+
+
 end
