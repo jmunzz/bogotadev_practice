@@ -17,21 +17,28 @@
 class Box
 	def initialize
 	@empty = true
-	@store = []
+	@content = nil
 
 	def get_status
 		@empty
 	end
 
-	def stor_stuffs(a)
-		store.push(a)
+	def store_stuffs(stuff)
+		content = stuff
 		if empty = false
 			puts "the box is full"
 		end
 	end
 
 	def getinfo 
-		@store
+		@content
+	end
+
+	def empty_the_box
+		content = nil
+		if empty = true
+			puts "there is nothing in this box"
+		end
 	end
 
 end
