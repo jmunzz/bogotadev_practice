@@ -31,7 +31,7 @@ class Box
 	end
 
 	def getinfo 
-		empty !=
+		@store
 	end
 
 end
